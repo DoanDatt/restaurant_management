@@ -1,4 +1,4 @@
-import { DishStatusValues } from '@/constants/type'
+import { DishStatusValues } from '@/src/constants/type'
 import z from 'zod'
 
 export const CreateDishBody = z.object({

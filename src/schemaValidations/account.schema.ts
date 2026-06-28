@@ -1,5 +1,5 @@
-import { Role } from '@/constants/type'
-import { LoginRes } from '@/schemaValidations/auth.schema'
+import { Role } from '@/src/constants/type'
+import { LoginRes } from '@/src/schemaValidations/auth.schema'
 import z from 'zod'
 
 export const AccountSchema = z.object({

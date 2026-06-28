@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import envConfig from '@/config'
-import { normalizePath } from '@/lib/utils'
-import { LoginResType } from '@/schemaValidations/auth.schema'
+import envConfig from '@/src/config'
+import { normalizePath } from '@/src/lib/utils'
+import { LoginResType } from '@/src/schemaValidations/auth.schema'
 // import { LoginResType } from '@/schemaValidations/auth.schema'
 import { redirect } from 'next/navigation'
 

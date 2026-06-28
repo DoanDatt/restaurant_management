@@ -1,6 +1,6 @@
-import { DishStatusValues, OrderStatusValues } from '@/constants/type'
-import { AccountSchema } from '@/schemaValidations/account.schema'
-import { TableSchema } from '@/schemaValidations/table.schema'
+import { DishStatusValues, OrderStatusValues } from '@/src/constants/type'
+import { AccountSchema } from '@/src/schemaValidations/account.schema'
+import { TableSchema } from '@/src/schemaValidations/table.schema'
 import z from 'zod'
 
 const DishSnapshotSchema = z.object({
